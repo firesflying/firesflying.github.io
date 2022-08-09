@@ -113,15 +113,15 @@ export default function ProductItem() {
 
   return (
     <>
-    <div className="container my-4">
-    <div className="d-flex justify-content-center">
+    <div className="container my-4 ">
+    <div className="d-flex justify-content-center flex-wrap">
     {/* <Button onClick={filterHandlerTagAll}> All</Button>
     <Button onClick={filterHandlerTag1}> SSTandoor</Button>
     <Button onClick={filterHandlerTag2}> MSTandoor</Button>
     <Button onClick={filterHandlerTag3}> CHTandoor</Button> */}
     {
       json.allTags.map(t => {
-        return <div className='mx-2'><Button onClick={()=>filterHandlerTag(`${t}`)}>{t}</Button><br/></div>
+        return <div className=' mx-1'><Button onClick={()=>filterHandlerTag(`${t}`)}>{t}</Button><br/></div>
       })
     }
     </div>

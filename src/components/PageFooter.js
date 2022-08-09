@@ -48,18 +48,18 @@ export default function PageFooter() {
 
 </div>
 <div>
-  <Link to="/termAndCondition">Term & Condition</Link>
+  <Link to="/term-and-condition">Term & Condition</Link>
   <Divider type='vertical'/>
-  <Link  to="/privacyPolicy">Privacy Policy</Link>
+  <Link  to="/privacy-policy">Privacy Policy</Link>
   <Divider type='vertical'/>
-  <Link to="/disclaimerDetails">Disclaimer</Link>
+  <Link to="/disclaimer-details">Disclaimer</Link>
 
 </div>
 
 
 <div className="text-center p-3" >
   © 2022 Copyright:
-  <a className="text-white" href="https://Outkit.com/"> Outkit.com </a>
+  <a className="text-white" href="https://FiresFlying.Shop/"> FiresFlying.shop </a>
 </div>
 
 </footer>

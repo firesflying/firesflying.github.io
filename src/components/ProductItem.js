@@ -38,8 +38,9 @@ export default function ProductItem() {
                 currentPosts.map((elem) => {
                      return (
                     
-                    <div className="col-lg-3 col-md-4 col-sm-6 col-xs-12 d-inline-flex justify-content-center align-items-center d-flex" key={elem.id}>
+                    <div className="col-lg-3 col-md-4 col-sm-6 col-xs-12 d-inline-flex justify-content-center align-items-center d-flex" key={elem.amazonUrl}>
                       <ProductCard 
+                      
                        title={elem.title} 
                        description ={elem.description} 
                        rating={elem.rating}

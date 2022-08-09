@@ -1,10 +1,5 @@
 {
   "allTags":["All", "Outdoor" , "Indoor" , "Accessories", "Utensils","Portable"],
-  "BannerImg":[
-                  "../components/assets/BannerImg_1.jpg",
-                  "../components/assets/BannerImg_2.jpg",
-                  "../components/assets/BannerImg_3.jpg"
-              ],
   "products":[
     { 
       "id" : 1,
